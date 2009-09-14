@@ -1,9 +1,9 @@
 %define upstream_name    constant
-%define upstream_version 1.18
+%define upstream_version 1.19
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Define compile-time constants
 License:    GPL+ or Artistic
