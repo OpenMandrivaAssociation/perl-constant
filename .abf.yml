@@ -1,2 +1,4 @@
+removed_sources:
+  constant-1.21.tar.gz: 5b34a3d5f31946d34c01a08beddeceddfabd628d
 sources:
-  "constant-1.21.tar.gz": 5b34a3d5f31946d34c01a08beddeceddfabd628d
+  constant-1.27.tar.gz: 54223c06f492cd9fff118d8613b973c524df13f6

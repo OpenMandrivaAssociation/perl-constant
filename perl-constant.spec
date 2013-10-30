@@ -1,15 +1,15 @@
 %define upstream_name    constant
-%define upstream_version 1.21
+%define upstream_version 1.27
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Define compile-time constants
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module//%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module//constant-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -85,4 +85,5 @@ make test
 
 * Mon May 11 2009 cpan2dist 1.17-1mdv
 - initial mdv release, generated with cpan2dist
+
 
